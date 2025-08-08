@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+  {
+  "name": "premium-purple-portfolio",
+  "version": "1.0.0",
+  "description": "Modern portfolio with premium purple glassmorphism design",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind:build": "tailwindcss -i ./src/css/input.css -o ./dist/css/main.css --minify",
+    "tailwind:watch": "tailwindcss -i ./src/css/input.css -o ./dist/css/main.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1",
+    "tailwindcss-filters": "^3.0.0",
+    "vite": "^3.1.8"
+  }
+}
+}

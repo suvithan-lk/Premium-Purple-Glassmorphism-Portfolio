@@ -1,0 +1,5 @@
+# Node modules
+node_modules/
+
+# Lock files (optional if you don’t want to commit them)
+package-lock.json
